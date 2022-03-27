@@ -54,29 +54,49 @@ li {
   .about-me h3 {
       font-size: 20px;
       text-align: left;
-      margin: 5px;
+      margin: 10px;
+      padding: 10px;
   }
 
   p {
       margin: 10px;
   }
 
+  .work {
+      display: flex;
+  }
+
   .work h3 {
       font-size: 20px;
-      padding-top: 10px;
+      padding: 10px;
       margin: 10px;
   }
   
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 20%;
+    padding: 2rem;
+    color: #38e3fa;
+    outline: 5px dashed #38e3fa;
+    outline-offset: -2px;
+    transition: all 0.5s
+    width: 100px;
+    height: 200px;
+  }
   img {
         border: 5px solid #38e3fa;
   }
 
   .footer-text {
       text-align: center;
+      padding-bottom: 10px;
   }
 
   .footer-text h3 {
     font-size: 20px;
     text-align: left;
     margin: 10px;
+    padding: 10px;
 }
