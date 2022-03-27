@@ -23,16 +23,22 @@ header {
     line-height: 100px;
 }
 
+h2 {
+    text-align: right;
+}
+
 .text-right {
     text-align: right;
 }
 
-h1 {
-    text-align: left;
-}
-
-h2 {
-    text-align:right;
+.name h1 {
+    text-align: right;
+    position: relative;
+    right: 500px;
+    margin: 0 auto;
+    width: 150px;
+    border: 1px solid #38e3fa;
+    background-color: #38e3fa;
 }
 
 li {
@@ -47,6 +53,7 @@ li {
 
   .about-me h3 {
       font-size: 20px;
+      text-align: left;
   }
 
   .work h3 {
