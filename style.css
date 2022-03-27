@@ -54,11 +54,21 @@ li {
   .about-me h3 {
       font-size: 20px;
       text-align: left;
+      margin: 5px;
+  }
+
+  p {
+      margin: 10px;
   }
 
   .work h3 {
       font-size: 20px;
       padding-top: 10px;
+      margin: 10px;
+  }
+  
+  img {
+        border: 5px solid #38e3fa;
   }
 
   .footer-text {
@@ -68,4 +78,5 @@ li {
   .footer-text h3 {
     font-size: 20px;
     text-align: left;
+    margin: 10px;
 }
