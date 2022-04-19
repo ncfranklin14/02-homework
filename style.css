@@ -113,8 +113,9 @@ li {
     background-color: white;
   }
   
-  .card {
+  .project-card {
     position: relative;
+    display: block;
     min-height: 20%;
     padding: 25px;
     margin: 1rem;
@@ -123,6 +124,11 @@ li {
     outline-offset: -2px;
     width: 300px;
     height: 250px;
+  }
+
+  .projects {
+      display: flex;
+      flex-direction: row;
   }
 
   img {
