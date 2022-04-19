@@ -1,4 +1,4 @@
-# 02-homework
+# 08-Update Portfolio
 
 This is a starter portfolio that I will add to as the course progresses. 
 An effective portfolio highlights your strongest work as well as the thought processes behind it. This portfolio will include flexbox, media queries, and CSS variables.
