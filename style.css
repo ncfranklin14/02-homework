@@ -6,7 +6,9 @@
 body {
     background-color: #8a8af7;
     position:relative;
-    font-family: monospace;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 header {
@@ -70,7 +72,7 @@ li {
 
   p {
       display: flex;
-      margin: 10px;
+      margin: 20px;
   }
 
   .work {
@@ -101,15 +103,15 @@ li {
   .card {
     position: relative;
     min-height: 20%;
-    padding: 2rem;
+    padding: 3rem;
     margin: 1rem;
     color: #38e3fa;
     outline: 5px solid #38e3fa;
     outline-offset: -2px;
-    transition: all 0.5s;
-    width: 200px;
+    width: 250px;
     height: 200px;
   }
+
   img {
         border: 5px solid #38e3fa;
   }
