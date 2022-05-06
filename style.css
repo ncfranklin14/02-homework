@@ -112,7 +112,7 @@ li {
     outline: 5px solid #38e3fa;
     outline-offset: -2px;
     width: 450px;
-    height: 250px;
+    height: 350px;
     background-color: white;
   }
   
@@ -120,7 +120,7 @@ li {
     position: relative;
     display: block;
     min-height: 20%;
-    padding: 20px;
+    padding: 1rem;
     margin: 1rem;
     color: #38e3fa;
     outline: 5px solid #38e3fa;

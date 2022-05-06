@@ -23,3 +23,5 @@ Here is the current user story:
 
 * It's done when you resize the page or view the site on various screens and devices, you are presented with a responsive layout that adapts to my viewport.
 
+## Link to deployed
+https://ncfranklin14.github.io/08-Update-portfolio/
