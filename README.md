@@ -22,4 +22,4 @@ Here is the current user story:
 * Display at least 3 examples of student work from either deployed projects or homeworks. For each project, make sure you have the following: Project title, Link to the deployed version, Link to the GitHub repository, Screenshot of the deployed application, Have a polished, mobile-responsive user interface.
 
 ## Link to deployed
-https://ncfranklin14.github.io/08-Update-portfolio/
+https://ncfranklin14.github.io/16-Updated-Portfolio-Page/
