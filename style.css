@@ -4,6 +4,7 @@
   }
 
 body {
+    background-image: url("https://i.etsystatic.com/30893084/r/il/e25ab7/3196918224/il_1588xN.3196918224_mjaf.jpg");
     background-color: #8a8af7;
     position:relative;
     font-family: 'Rubik Microbe', cursive;
@@ -15,7 +16,6 @@ body {
 header {
     width: 100%;
     background-color: #ffcbcb; 
-
 }
 
 .sub-header {
@@ -97,23 +97,13 @@ li {
       padding-right: 10px;
   }
 
-  .bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 20px; 
-  }
-
   .topcard {
     position: relative;
     min-height: 20%;
     padding: 1rem;
     margin: 1rem;
-    color: #38e3fa;
-    outline: 5px solid #38e3fa;
-    outline-offset: -2px;
-    width: 450px;
-    height: 350px;
-    background-color: white;
+    font-weight: bold;
+    border-radius: 25px;
   }
   
   .project-card {
@@ -122,11 +112,7 @@ li {
     min-height: 20%;
     padding: 1rem;
     margin: 1rem;
-    color: #38e3fa;
-    outline: 5px solid #38e3fa;
-    outline-offset: -2px;
-    width: 300px;
-    height: 250px;
+    font-weight: bold;
   }
 
   .projects {
@@ -154,8 +140,40 @@ li {
     justify-content: space-evenly;
     align-items: center;
     padding-left: 80px;
-}
-
-@media screen and (max-width: 600px) {
+    font-weight: bold;
 
 }
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right, .projects{
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    /* Use flex-direction to stack the navbar, sidebar, and body */
+    main,
+    nav, .projects {
+      flex-direction: column;
+    }
+}
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    nav, .main, .right, .projects, .sub-header {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    header {
+        float: none;
+
+        text-align: left;
+      }
+      .text-right {
+        float: none;
+        flex-wrap: wrap;
+      }
+  }
