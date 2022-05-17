@@ -1,4 +1,4 @@
-# 08-Update Portfolio
+# 16-Update Portfolio
 
 This is a starter portfolio that I will add to as the course progresses. 
 An effective portfolio highlights your strongest work as well as the thought processes behind it. This portfolio will include flexbox, media queries, and CSS variables.
@@ -11,17 +11,15 @@ Here is the current user story:
 
 ## Acceptance Criteria
 
-* It's done when you load the portfolio the person is presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them.
+* Your updated portfolio should:
 
-* It's done when you click one of the links in the navigation and the UI scrolls to the corresponding section.
+* Display your contact information. If you don't want to share your personal email or phone number, use a separate email that you will only use for coding, also known as a developer email, and/or a call forwarding service, such as Google Voice.
 
-* It's done when you click on the link to the section about their work and the UI scrolls to a section with titled images of the developer's applications.
+* Have links to your GitHub profile and LinkedIn profile
 
-* It's done when you are presented with the developer's first application and that application's image should be larger in size than the others.
+* Have a link to a downloadable PDF of your resume
 
-* It's done when you click on the images of the applications and I am taken to that deployed application.
-
-* It's done when you resize the page or view the site on various screens and devices, you are presented with a responsive layout that adapts to my viewport.
+* Display at least 3 examples of student work from either deployed projects or homeworks. For each project, make sure you have the following: Project title, Link to the deployed version, Link to the GitHub repository, Screenshot of the deployed application, Have a polished, mobile-responsive user interface.
 
 ## Link to deployed
 https://ncfranklin14.github.io/08-Update-portfolio/
